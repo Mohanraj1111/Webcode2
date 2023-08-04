@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 1200px) {
+
+  /*Tablets [601px -> 1200px]*/
+  .header {
+    width: 999px;
+  }
+
+  .login {
+    margin-right: 90px;
+  }
+
+  .slider {
+    margin-left: 130px;
+    gap: 90px;
+  }
+
+  .left .title {
+    font-size: 20px;
+  }
+
+  .images {
+    width: 450px !important;
+  }
+
+  .form-container {
+    margin-left: 150px;
+  }
+
+  .car-img {
+    width: 300px !important;
+  }
+
+  .car-row {
+    width: 700px;
+    margin-left: 130px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+  /*Big smartphones [426px -> 600px]*/
+  .header {
+    width: 550px;
+  }
+
+  .car-row {
+    margin-left: -50px;
+  }
+
+  .car-info {
+    font-size: 20px;
+  }
+
+  .logo {
+    font-size: 10px !important;
+  }
+
+  .left .title {
+    font-size: 10px;
+  }
+
+  .images {
+    width: 200px !important;
+  }
+
+  .form-container {
+    margin-left: -50px;
+  }
+
+  .car-img {
+    width: 300px !important;
+  }
+
+  .car-info {
+    font-size: 1px !important;
+  }
+}

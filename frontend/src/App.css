@@ -1,0 +1,366 @@
+.header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    box-shadow: 0px 15px 10px -15px #c75959;
+    color: cadetblue;
+}
+
+.col a.logo {
+    text-decoration: none;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #77d3e8;
+}
+
+.col a.login {
+    margin-left: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+}
+
+.col a.login:hover {
+    text-decoration: underline;
+}
+
+.name {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.main {
+    min-height: calc(100vh - 80px);
+}
+
+.footer {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider {
+    display: flex;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 0 0 4px #962d2dab;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    margin: 100px 0;
+}
+
+.big-title {
+    text-align: center;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: darkcyan;
+}
+
+.content-groups {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 250px;
+    height: 300px;
+}
+
+.card-body {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-footer {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-cars {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    filter: drop-shadow(0 0 13px #111111);
+}
+
+.car-title {
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.per-day {
+    margin-bottom: 20px;
+}
+
+.bold-price {
+    font-weight: bold;
+}
+
+.rent-now {
+    padding: 5px 15px;
+    background-color: #ffffff;
+    box-shadow: 0 0 3px #000000;
+    color: #000000;
+    cursor: pointer;
+    transition: all 0.5s;
+    border: none;
+}
+
+.rent-now:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.rent-link {
+    color: #992323;
+    text-decoration: none;
+}
+
+.rent-now:hover .rent-link {
+    color: #ffffff;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading-title {
+    font-size: 40px;
+    text-transform: uppercase;
+    text-shadow: 0 0 2px #111111;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 80px);
+}
+
+.form-groups {
+    width: 300px;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+
+}
+
+.form-title {
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0 3px #e65019b6;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 10px 5px;
+}
+
+.input {
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #111111;
+}
+
+.rent-now {
+    display: block;
+    margin: 0 auto;
+    width: max-content;
+}
+
+.form-link {
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+}
+
+.form-link:hover {
+    text-decoration: underline;
+}
+
+.logout {
+    text-transform: uppercase;
+    margin-left: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.logout:hover {
+    text-decoration: underline;
+}
+
+.car-rentTitle {
+    text-align: center;
+    margin: 100px 0 100px 0;
+    font-size: 40px;
+}
+
+.car-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.car-col {
+    flex: 1;
+    margin-bottom: 100px;
+}
+
+.car-group {
+    margin-bottom: 25px;
+}
+
+.car-subtitle {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #b44646;
+}
+
+.car-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.car-info span {
+    margin-bottom: 5px;
+    font-size: 40px;
+}
+
+.car-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.car-img {
+    width: 600px;
+    height: auto;
+    filter: drop-shadow(0 0 5px #111111);
+}
+
+.driver {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.driver input {
+    width: 30px;
+    height: 30px;
+}
+
+.driver label {
+    margin-left: 5px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.total {
+    margin-top: 25px;
+}
+
+.totalTitle {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.content-flex {
+    display: flex;
+    padding: 0 10px;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.flex-2 {
+    flex: 2;
+}
+
+.div-filter {
+    margin-bottom: 40px;
+}
+
+.filter-btns {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-type {
+    padding: 5px 15px;
+    background-color: #ffffff;
+    box-shadow: 0 0 4px #000000;
+    border: none;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: all 0.5s;
+    text-align: center;
+}
+
+.btn-type:hover {
+    background-color: #afafaf;
+}
+
+.search {
+    height: 30px;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 0 15px;
+    color: #afafaf;
+    border-bottom: 1px solid #afafaf;
+}
